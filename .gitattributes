@@ -1,0 +1,2 @@
+# Código do Aplicativo Lean: guardar byte a byte (quebras de linha dentro de textos do código não podem mudar)
+aplicativo-lean/** -text

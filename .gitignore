@@ -1,0 +1,20 @@
+# Dependências e builds
+node_modules/
+app/dist/
+aplicativo-lean/dist/
+
+
+# Planilhas com dados reais das obras (ver CLAUDE.md)
+*.xlsx
+*.xlsm
+*.xls
+
+.env*
+*.log
+.DS_Store
+
+# Modelo vazio do checklist (layout teste2.0), usado no build: só o formulário, sem dados de obra
+!aplicativo-lean/src/modelos/*.xlsx
+
+# Dados da nuvem local (banco do ambiente de desenvolvimento)
+aplicativo-lean/dados/
